@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <style>
+        #posts{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+        }
+        
+        .make-up{
+            background-color: bisque;
+            border-radius: 10px;
+            padding: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello API</h1>
+    <ul id="users">
+        <!-- li -->
+    </ul>
+    <button onclick="loadData()">Load API</button>
+    <button onclick="loadUser()">User API Load</button>
+
+    <h1>Display POST</h1>
+    <section id="posts">
+        <!-- <div> -->
+            <!-- <h2>Title</h2>
+            <h3>ID</h3>
+            <p>Description</p> -->
+        <!-- </div> -->
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
